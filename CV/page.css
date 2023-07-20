@@ -1,5 +1,100 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   
 }
+body{
+    background-color: gray;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+main{
+    height: 100vh;
+    width: 60vw;
+    position: absolute;
+    left: 400px;
+    background-color:antiquewhite;
+}
+main .left{
+    background-color: red;
+    margin-left: 0;
+    height: 100%;
+    width: 40%;
+    
+}
+.profile_image{
+    box-shadow: 2px 7px 9px 5px solid rgb(0, 4, 255);
+    margin-bottom: 10%;
+    margin-left: 70%;
+    width: 90%;   
+}
+.profile_image img{
+    width: 40%;
+    border: 10px solid rgb(15, 15, 92);
+}
+.big{
+    position: relative;
+}
+.big .entete{
+  background-color: rgb(15, 15, 92);
+  padding: 10px;
+  padding-left: 25px;
+  margin-right: -20px;
+
+}
+.entete::after{
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 21px;
+    background-color: rgb(15, 15, 92);
+    left: 461px;
+    top: 30px;
+    transform: rotate(deg);
+    z-index: 1;
+}
+.back{
+    padding: 5px;
+}
+.spend_container{
+    width: 90%;
+    background-color: rgb(15, 15, 92);
+    margin: 0px 10px;
+}
+.spend{
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: right;
+}
+.html{
+    width: 80%;
+    background-color: white;
+}
+.css{
+    width: 70%;
+    background-color: white;
+}
+.js{
+    width: 60%;
+    background-color: white;
+}
+.php{
+    width: 50%;
+    background-color: white;
+}
+.flutter{
+    width: 70%;
+    background-color: white;
+}
+.git{
+    width: 60%;
+    background-color: white;
+}
+
+
+.web{
+    width: 60%;
+    background-color: white;
+}
+
