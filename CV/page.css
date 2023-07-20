@@ -53,6 +53,7 @@ main .left{
     transform: rotate(deg);
     z-index: 1;
 }
+
 .back{
     padding: 5px;
 }
@@ -91,10 +92,9 @@ main .left{
     width: 60%;
     background-color: white;
 }
-
-
 .web{
     width: 60%;
     background-color: white;
 }
+
 
