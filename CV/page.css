@@ -4,7 +4,7 @@
    
 }
 body{
-    background-color: gray;
+    background-color: rgba(150, 122, 70, 0.699);
     letter-spacing: 2px;
     font-weight: bold;
 }
@@ -13,10 +13,10 @@ main{
     width: 60vw;
     position: absolute;
     left: 400px;
-    background-color:antiquewhite;
+    background-color:white;
 }
 main .left{
-    background-color: rgba(255, 187, 0, 0.623);
+    background-color: burlywood;
     margin-left: 0;
     height: 100%;
     width: 40%;
@@ -36,7 +36,7 @@ main .left{
     position: relative;
 }
 .big .entete{
-  background-color: rgb(0, 0, 155);
+  background-color: gray;
   padding: 10px;
   padding-left: 25px;
   margin-right: -20px;
@@ -62,7 +62,7 @@ li a{
     position: absolute;
     width: 13px;
     height: 21px;
-    background-color: rgb(10, 10, 117);
+    background-color: gray;
     left: 461px;
     top: 30px;
     transform: rotate(deg);
@@ -111,12 +111,34 @@ li a{
     width: 60%;
     background-color: white;
 }
-
 main .right{
+    width: 60%;
+    height: 100%;
+    float: left;   
+}
+.right .basname{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.basname h2{
+    text-decoration: overline;
+    margin-left: 6%;
+}
+.bach{
+    margin-top: 11%;
+    margin-left: 15%;
+}
+.bach p{
+  letter-spacing: 2px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+/*main .right{
     padding-top: 50px;
     padding-left: 5px;
     background-color: brown;
-    height: 100%;
+    margin-top: -81%;
+    height: 95%;
     width: 60%;
     float: right;
 }
+*/
