@@ -20,7 +20,7 @@ main .left{
     margin-left: 0;
     height: 100%;
     width: 40%;
-    
+    float: left;
 }
 .profile_image{
     box-shadow: 2px 7px 9px 5px solid rgb(0, 4, 255);
@@ -36,7 +36,7 @@ main .left{
     position: relative;
 }
 .big .entete{
-  background-color: rgb(15, 15, 92);
+  background-color: rgb(0, 0, 155);
   padding: 10px;
   padding-left: 25px;
   margin-right: -20px;
@@ -62,7 +62,7 @@ li a{
     position: absolute;
     width: 13px;
     height: 21px;
-    background-color: rgb(15, 15, 92);
+    background-color: rgb(10, 10, 117);
     left: 461px;
     top: 30px;
     transform: rotate(deg);
@@ -112,4 +112,11 @@ li a{
     background-color: white;
 }
 
-
+main .right{
+    padding-top: 50px;
+    padding-left: 5px;
+    background-color: brown;
+    height: 100%;
+    width: 60%;
+    float: right;
+}
