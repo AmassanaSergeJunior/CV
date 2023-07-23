@@ -125,12 +125,21 @@ main .right{
     margin-left: 6%;
 }
 .bach{
-    margin-top: 11%;
+    margin-top: 10%;
     margin-left: 15%;
 }
 .bach p{
   letter-spacing: 2px;
   font-family:Arial, Helvetica, sans-serif;
+}
+.bach .sub-bash{
+    margin-top: 3%;
+}
+.bach .sub-bash h4{
+    margin-top: 2%;
+}
+.bach .sub-bach h4{
+    margin-top: 2%;
 }
 /*main .right{
     padding-top: 50px;
